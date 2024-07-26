@@ -1,0 +1,8 @@
+repositories:
+  - name: hemlfile_prac
+    url: git+https://github.com/rahulwagh/helmchart@helloworld?ref=master&sparse=0
+
+releases:
+  - name: 04helmfileprac
+    chart: 04helmfileprac/04helmfileprac
+    installed: false
